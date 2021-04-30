@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 
 const Shop = () => {
-    return <div className="shop">
+    return <div className="shop" id="shop">
         <div className="container">
             <div className="shop__text">
                 <div>
@@ -21,4 +21,4 @@ const Shop = () => {
     
 };
 
-export default Shop
+export default Shop;

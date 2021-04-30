@@ -9,11 +9,11 @@ const Navbar = () => {
                 </div>
                 <ul >
                     <li className="navbar__ul">
-                        <li><a href="/">Home</a>
+                        <li><a href="#header">Home</a>
                         </li>
-                        <li><a href="/menu">Menu</a>
+                        <li><a href="#menu">Menu</a>
                         </li>
-                        <li><a href="/">Shop</a>
+                        <li><a href="#shop">Shop</a>
                         </li>
                         <li><a href="/">News</a>
                         </li>

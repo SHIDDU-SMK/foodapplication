@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 const About = () => {
 return(
-    <div className="about">
+    <div className="about" id="about">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 p-25">

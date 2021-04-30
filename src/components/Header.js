@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 
 const Header = () => {
    
-    return <div className="banner">
+    return <div className="banner" id="header">
          <Navbar />
         <div className="banner__content">
             <div className="container">
