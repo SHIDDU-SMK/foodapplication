@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Row, Col, Card} from 'react-bootstrap';
+import {  Row, Col, Card} from 'react-bootstrap';
 
 function TempletePizzini({ data }) {
     return (
@@ -14,56 +14,36 @@ function TempletePizzini({ data }) {
                     </b>
                 </h1>
 
-                <div className="container" style={{ marginTop: "60px" }}>
+                <div className="container " style={{ marginTop: "60px" }}>
                    
-                            <>
-                                <hr className="featurette-divider" />
-                                <div className="container">
-                <Row className="justify-content-md-center">
+                    <>
+                        <hr className="featurette-divider" />
+                            <div className="container">
+                         <Row className="justify-content-md-center">
                                 {
                                         data.Products.map(item =>
                                     
                                     <Col md="4">
-                                   
-                                    
-                                        {/* <Image src={item.image}  width='230' />
-                                    
-                                    
-                                        <h2 style={{ textAlign: "center"}}>
-                                            {item.heading}
-                                        </h2>
-
-                                        <p >
+                                        <Card style={{ width: '18rem' }}>
+                                        <Card.Img variant="top" src={item.image} style={{height:"15rem"}} width="230px" />
+                                        <Card.Body>
+                                            <Card.Title>{item.heading}</Card.Title>
+                                            <Card.Text>
                                             {item.paragraph}
-                                        </p>
-                                    
-                                        <h2 style={{ textAlign: "center"}}>
-                                            {item.$rate}
-                                        </h2> */}
-
-                                    <Card style={{ width: '20rem' }}>
-                                    <Card.Img variant="top" src={item.image} style={{height:"10rem"}}/>
-                                    <Card.Body>
-                                        <Card.Title>{item.heading}</Card.Title>
-                                        <Card.Text>
-                                        {item.paragraph}
-                                        </Card.Text>
-                                        <h2 style={{ textAlign: "center"}}>
-                                            {item.$rate}
-                                        </h2>
-                                    </Card.Body>
-                                    </Card>
+                                            </Card.Text>
+                                            <h2 style={{ textAlign: "center"}}>
+                                                {item.$rate}
+                                            </h2>
+                                        </Card.Body>
+                                            </Card>
                                 
-                                    </Col>
+                                        </Col>
                                 
-                                         )
-                                        }
-                                       </Row> 
-            </div>
-                                 
-
-                            </>
-                     
+                                        )
+                                    }
+                            </Row> 
+                        </div>
+                    </>     
                 </div>
             </div>
         </>

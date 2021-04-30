@@ -227,6 +227,7 @@ body {
     font-weight: 300;
 }
 
+
 @media (max-width: 600px) {
     .navbar__text {
         display: flex;

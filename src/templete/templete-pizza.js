@@ -19,21 +19,21 @@ function TempletePizza({ data }) {
                         data.Products.map(item =>
                             <>
                                 <hr className="featurette-divider" />
-                                <Row>
-                                    <Col md="4">
-                                        <Image src={item.image} style={{ paddingtop: "10px" }} width='230' />
+                                <Row className="justify-content-md-center">
+                                    <Col md="4" >
+                                        < Image src={item.image} style={{  textAlign: "center",paddingTop:"30px"}} width='230' />
                                     </Col>
-                                    <Col md="4">
-                                        <h2 style={{ textAlign: "center", paddingTop: "4rem" }}>
+                                    <Col md="4" >
+                                        <h2  style={{ textAlign: "center", paddingTop: "4rem" }}>
                                             {item.heading}
                                         </h2>
 
-                                        <p style={{ textAlign: "center", paddingTop: "1rem" }}>
+                                        <p  style={{ textAlign: "center", paddingTop: "1rem" }}>
                                             {item.paragraph}
                                         </p>
                                     </Col>
                                     <Col md="4">
-                                        <h2 style={{ textAlign: "center", paddingTop: "7rem" }}>
+                                        <h2   style={{ textAlign: "center", paddingTop: "7rem" }}>
                                             {item.$rate}
                                         </h2>
                                     </Col>

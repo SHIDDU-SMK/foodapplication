@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const Menu = () => {
     return (
-        <div className="about">
+        <div className="about" id="menu" >
             <div className="container">
             <div className="row">
                 <div className="col-lg-6">
@@ -17,9 +18,8 @@ const Menu = () => {
                     Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynaus,quise sequitur mutationem consuetudium lectorum.
                     </p>
                     <div className="about__btn">
-                        <a href="/" className="btn btn-smart">
-                            VIEW MORW
-                        </a>
+                    <Button variant="dark">DEVLERY NOW</Button>{' '} 
+                        
                     </div>
                 </div>
             </div>

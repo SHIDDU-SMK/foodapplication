@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar";
+import Button from 'react-bootstrap/Button'
 
 const Header = () => {
    
@@ -14,8 +15,8 @@ const Header = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing alit. Excepturi minus ut mollitia error molestiae quie, laudantium odit quasi maiores sit as similique consectetur nostrum eveniet,quis ipsam id tempora fugit.
                 </p>
                 <div className="banner__btn">
-                    <a href="/" className="btn btn-smart">DEVLERY NOW
-                    </a>
+                <Button variant="dark">DEVLERY NOW</Button>{' '} 
+                    
                 </div>
             </div>
         </div>

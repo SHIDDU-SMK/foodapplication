@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const About = () => {
 return(
@@ -13,9 +14,9 @@ return(
 
                     </p>
                     <div className="about__btn">
-                        <a href="/" className="btn btn-smart">
-                            READ MORE
-                        </a>
+                    <Button variant="dark">Veiw More</Button>{' '}
+                          
+                    
                     </div>
                 </div>
                 <div className="col-lg-6">
