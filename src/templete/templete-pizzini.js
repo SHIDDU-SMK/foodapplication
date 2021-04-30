@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Row, Col } from 'react-bootstrap';
+import { Image, Row, Col, Card} from 'react-bootstrap';
 
 function TempletePizzini({ data }) {
     return (
@@ -18,14 +18,15 @@ function TempletePizzini({ data }) {
                    
                             <>
                                 <hr className="featurette-divider" />
-                         
-                                <Col>
+                                <div className="container">
+                <Row className="justify-content-md-center">
                                 {
                                         data.Products.map(item =>
-                                    <Row>
+                                    
+                                    <Col md="4">
                                    
                                     
-                                        <Image src={item.image}  width='230' />
+                                        {/* <Image src={item.image}  width='230' />
                                     
                                     
                                         <h2 style={{ textAlign: "center"}}>
@@ -38,13 +39,27 @@ function TempletePizzini({ data }) {
                                     
                                         <h2 style={{ textAlign: "center"}}>
                                             {item.$rate}
+                                        </h2> */}
+
+                                    <Card style={{ width: '20rem' }}>
+                                    <Card.Img variant="top" src={item.image} style={{height:"10rem"}}/>
+                                    <Card.Body>
+                                        <Card.Title>{item.heading}</Card.Title>
+                                        <Card.Text>
+                                        {item.paragraph}
+                                        </Card.Text>
+                                        <h2 style={{ textAlign: "center"}}>
+                                            {item.$rate}
                                         </h2>
+                                    </Card.Body>
+                                    </Card>
                                 
-                                    </Row>
+                                    </Col>
+                                
                                          )
                                         }
-                                        
-                                </Col>
+                                       </Row> 
+            </div>
                                  
 
                             </>

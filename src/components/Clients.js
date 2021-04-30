@@ -5,7 +5,7 @@ const Clients = () => {
         <div className="clients">
             <div className="container">
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-lg-3">
                         <div className="client">
                             <h1>
                                 120
@@ -13,7 +13,7 @@ const Clients = () => {
                             <p>Awesome Employees</p>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3">
                         <div className="client">
                         <h1>
                                 58
@@ -21,7 +21,7 @@ const Clients = () => {
                             <p>Pizza Types</p>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3">
                         <div className="client">
                         <h1>
                                 1468
@@ -29,7 +29,7 @@ const Clients = () => {
                             <p>Satisfied Clients</p>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3">
                         <div className="client">
                             <h1>
                                 2031

@@ -20,10 +20,10 @@ function TempletePizza({ data }) {
                             <>
                                 <hr className="featurette-divider" />
                                 <Row>
-                                    <Col>
+                                    <Col md="4">
                                         <Image src={item.image} style={{ paddingtop: "10px" }} width='230' />
                                     </Col>
-                                    <Col >
+                                    <Col md="4">
                                         <h2 style={{ textAlign: "center", paddingTop: "4rem" }}>
                                             {item.heading}
                                         </h2>
@@ -32,7 +32,7 @@ function TempletePizza({ data }) {
                                             {item.paragraph}
                                         </p>
                                     </Col>
-                                    <Col>
+                                    <Col md="4">
                                         <h2 style={{ textAlign: "center", paddingTop: "7rem" }}>
                                             {item.$rate}
                                         </h2>
