@@ -5,6 +5,8 @@ import About from "./components/About";
 import Shop from "./components/Shop";
 import Menu from "./components/Menu";
 import Clients from "./components/Clients";
+import PizzaProduct from './pages/pizzacategery';
+import PizziniProduct from './pages/pizzinicategery';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
    <Shop />
    <Menu />
    <Clients />
+   <PizzaProduct />
+   <PizziniProduct />
+
     </div>
   );
 }
