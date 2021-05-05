@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+
 
 
 const Shop = () => {
@@ -10,9 +10,10 @@ const Shop = () => {
                     <h1>
                         Free Delivery With PIZZA OF THE DAY Only 8.99 USD
                     </h1>
-                    <div className="shop__btn">
-                    <Button variant="dark">Veiw More</Button>{' '}
-                       
+                    <div className='bannerr__btn'>
+                            <a href='/' className='btnn btn-smart' style={{background:'#FF454F'}}>
+                                READ MORE
+                            </a>
                     </div>
                 </div>
             </div>

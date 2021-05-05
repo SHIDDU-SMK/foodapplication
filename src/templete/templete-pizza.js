@@ -14,14 +14,14 @@ function TempletePizza({ data }) {
                     </b>
                 </h1>
 
-                <div className="container background" style={{ marginTop: "60px" }}>
+                <div className=" background" style={{ marginTop: "60px" }}>
                     {
                         data.Products.map(item =>
                             <>
-                                <hr className="featurette-divider" />
-                                <Row className="justify-content-md-center">
+                                <hr className="featurette-divider " />
+                                <Row className="justify-content-md-center templetepizza">
                                     <Col md="4" >
-                                        < Image src={item.image} style={{  textAlign: "center",paddingTop:"30px"}} width='230' />
+                                        < Image src={item.image} style={{  textAlign: "center",paddingTop:"30px" ,paddingLeft:"60px"}} width='300' height="250" />
                                     </Col>
                                     <Col md="4" >
                                         <h2  style={{ textAlign: "center", paddingTop: "4rem" }}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 const About = () => {
 return(
@@ -13,10 +13,10 @@ return(
                     Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynaus, quise sequitur mutationem consuetudium lectorum.
 
                     </p>
-                    <div className="about__btn">
-                    <Button variant="dark">Veiw More</Button>{' '}
-                          
-                    
+                    <div className='bannerr__btn'>
+                            <a href='/' className='btnn btn-smart' style={{background:'#FF454F'}}>
+                                READ MORE
+                            </a>
                     </div>
                 </div>
                 <div className="col-lg-6">

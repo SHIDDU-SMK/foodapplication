@@ -5,7 +5,7 @@ function TempletePizzini({ data }) {
     return (
         <>
             <div>
-                <h1 style={{ textAlign: "center", paddingTop: "7rem" }}>
+                <h1 style={{ textAlign: "center", paddingTop: "7rem"  }} id="footer" >
                     <b>
                         {data.Title}
                     </b> <br />
@@ -14,18 +14,18 @@ function TempletePizzini({ data }) {
                     </b>
                 </h1>
 
-                <div className="container " style={{ marginTop: "60px" }}>
+                <div className="container " style={{ marginTop: "60px"  }}>
                    
                     <>
                         <hr className="featurette-divider" />
-                            <div className="container">
+                            <div className="container templetepizzni">
                          <Row className="justify-content-md-center">
                                 {
                                         data.Products.map(item =>
                                     
                                     <Col md="4">
-                                        <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src={item.image} style={{height:"15rem"}} width="230px" />
+                                        <Card style={{ width: '20rem' }}>
+                                        <Card.Img variant="top" src={item.image} style={{height:"15rem" }} width="200px"  height="270px"/>
                                         <Card.Body>
                                             <Card.Title>{item.heading}</Card.Title>
                                             <Card.Text>
@@ -46,6 +46,8 @@ function TempletePizzini({ data }) {
                     </>     
                 </div>
             </div>
+          <hr className="featurette-divider"/>
+
         </>
     );
 }

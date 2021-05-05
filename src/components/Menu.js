@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 
 const Menu = () => {
     return (
@@ -17,9 +16,10 @@ const Menu = () => {
                     <p>
                     Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynaus,quise sequitur mutationem consuetudium lectorum.
                     </p>
-                    <div className="about__btn">
-                    <Button variant="dark">DEVLERY NOW</Button>{' '} 
-                        
+                    <div className='bannerr__btn'>
+                            <a href='/' className='btnn btn-smart' style={{background:'#FF454F'}}>
+                                READ MORE
+                            </a>
                     </div>
                 </div>
             </div>
